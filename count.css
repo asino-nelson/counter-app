@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+    width: auto;
+}
+
+h3{
+    margin-left: 40%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110px;
+}
+.button{
+    background-color: royalblue;
+    color: white;
+    padding: 15px 30px;
+    outline: 2px solid royalblue;
+    border-radius: 15px;
+    margin-top: 3%;
+    margin-left: 40%;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display:flex;
+    width: 80px;
+    transition: 0.2s;
+    
+}
+.button:hover{
+    background-color: green;
+    outline: 2px solid green;;
+}
